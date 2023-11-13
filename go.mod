@@ -3,7 +3,7 @@ module github.com/customerio/fdbtop
 go 1.20
 
 require (
-	github.com/apple/foundationdb/bindings/go v0.0.0-20220610181015-7fde69afdee4
+	github.com/apple/foundationdb/bindings/go v0.0.0-20231025163521-0301045e333a
 	github.com/gdamore/tcell/v2 v2.6.0
 	github.com/pkg/errors v0.9.1
 )

@@ -1,5 +1,7 @@
 github.com/apple/foundationdb/bindings/go v0.0.0-20220610181015-7fde69afdee4 h1:w+lK25LjUAyRf43he/vqe/thyBrmGJxFazIqPh90SBE=
 github.com/apple/foundationdb/bindings/go v0.0.0-20220610181015-7fde69afdee4/go.mod h1:w63jdZTFCtvdjsUj5yrdKgjxaAD5uXQX6hJ7EaiLFRs=
+github.com/apple/foundationdb/bindings/go v0.0.0-20231025163521-0301045e333a h1:dBykmcZ1/zh36vj9aPC/6FXS4fx0OoPpAkHuqTwDJyw=
+github.com/apple/foundationdb/bindings/go v0.0.0-20231025163521-0301045e333a/go.mod h1:OMVSB21p9+xQUIqlGizHPZfjK+SHws1ht+ZytVDoz9U=
 github.com/gdamore/encoding v1.0.0 h1:+7OoQ1Bc6eTm5niUzBa0Ctsh6JbMW6Ra+YNuAtDBdko=
 github.com/gdamore/encoding v1.0.0/go.mod h1:alR0ol34c49FCSBLjhosxzcPHQbf2trDkoo5dl+VrEg=
 github.com/gdamore/tcell/v2 v2.6.0 h1:OKbluoP9VYmJwZwq/iLb4BxwKcwGthaa1YNBJIyCySg=
