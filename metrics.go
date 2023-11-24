@@ -59,7 +59,7 @@ func ShowMetricsScreen() {
 	y := 7 + len(History) - 1
 	_, ScreenHeight := screen.Size()
 	for _, metric := range History {
-		if y < ScreenHeight {
+		if y < ScreenHeight-1 {
 			SetColor("DarkGray")
 			WriteAt(1, y, "%9s | %8s %40s | %8s %40s | %10s %20s |", time.Duration(math.Round(float64(metric.LocalTime.Seconds())))*time.Second, "", "", "", "", "", "")
 

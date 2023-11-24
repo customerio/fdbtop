@@ -34,7 +34,7 @@ func ShowTransactionsScreen() {
 
 	y := 7 + len(History) - 1
 	for _, metric := range History {
-		if y < ScreenHeight {
+		if y < ScreenHeight-1 {
 			SetColor("DarkGray")
 			WriteAt(1, y, "%9s | %8s %40s | %8s %40s | %10s %20s |", TimeSpanInSecondsWithRounding(metric.LocalTime.Seconds()), "", "", "", "", "", "")
 

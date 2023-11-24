@@ -5,6 +5,7 @@ import (
 	"math"
 	"sort"
 	"strings"
+	"time"
 )
 
 var debugLayout = true
@@ -624,7 +625,7 @@ func Nice(value float64, zero string, epsilon float64, small string) string {
 	return fmt.Sprintf("%.2f", value)
 }
 
-func TimeSpanInSecondsWithRounding(seconds float64) string {
+func TimeSpanInSecondsWithRounding(seconds float64) time.Duration {
 	roundedSeconds := math.Round(seconds)
-	return fmt.Sprintf("%.0f", roundedSeconds)
+	return time.Duration(roundedSeconds) * time.Second
 }
