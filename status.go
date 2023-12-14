@@ -159,8 +159,8 @@ type FdbRole struct {
 		P999   float64 `json:"p99.9"`
 	} `json:"read_latency_statistics,omitempty"`
 	StorageMetadata struct {
-		CreatedTimeDatetime  string `json:"created_time_datetime"`
-		CreatedTimeTimestamp int64  `json:"created_time_timestamp"`
+		CreatedTimeDatetime  string  `json:"created_time_datetime"`
+		CreatedTimeTimestamp float64 `json:"created_time_timestamp"`
 	} `json:"storage_metadata,omitempty"`
 	StoredBytes  int64 `json:"stored_bytes,omitempty"`
 	TotalQueries struct {
